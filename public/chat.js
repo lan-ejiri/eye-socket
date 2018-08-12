@@ -1,5 +1,5 @@
 //make connection
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('https://practicechatapp.herokuapp.com/');
 
 var $message = $("#message");
 var $handle = $("#handle");
